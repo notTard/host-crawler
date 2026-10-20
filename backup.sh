@@ -4,8 +4,8 @@ USER="vtb"  # Логин
 HOSTS=(
     #Добавить хосты)
 
-DEST="/srv/backup/keytabs"
-SRC="/etc/security/keytabs"
+DEST=""
+SRC=""
 
 SSH_OPTS=(-o StrictHostKeyChecking=accept-new)
 
